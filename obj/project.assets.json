@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.0": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -11,7 +11,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -20,7 +20,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win-x64": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -29,7 +29,7 @@
       }
     },
     ".NETFramework,Version=v4.0/win-x86": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -39,10 +39,10 @@
     }
   },
   "libraries": {
-    "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
-      "sha512": "w/nu1AVrY7ZsYrxaqFEVKXnNCUPJiTZ+p3DqBKx0jy10YtNTYuzdc2Nz1iiF70bgXuWGn7xo0LTcVA99gWXYsQ==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.0.6": {
+      "sha512": "/fs0GZo9HewWjfgkEffHfYrH/q/cq4pW2iVEI0YelEVVFdeB+cYUuSQR0iXaEkSDylxPB0dpgd3ZdgJ7a0TuEg==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/0.4.3",
+      "path": "microsoft.powerapps.msbuild.pcf/1.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -50,31 +50,31 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.0.4.3.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.0.6.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.0": [
-      "Microsoft.PowerApps.MSBuild.Pcf >= 0.*"
+      "Microsoft.PowerApps.MSBuild.Pcf >= 1.*"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicolask\\.nuget\\packages\\": {}
+    "C:\\Users\\RobertWenstrand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicolask\\Documents\\Presales\\Technip FMC\\CRM.Timeline-master\\CRM.Timeline\\BasicTimeline.pcfproj",
-      "projectName": "BasicTimeline",
-      "projectPath": "C:\\Users\\nicolask\\Documents\\Presales\\Technip FMC\\CRM.Timeline-master\\CRM.Timeline\\BasicTimeline.pcfproj",
-      "packagesPath": "C:\\Users\\nicolask\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicolask\\Documents\\Presales\\Technip FMC\\CRM.Timeline-master\\CRM.Timeline\\obj\\",
+      "projectUniqueName": "C:\\Users\\RobertWenstrand\\Source\\Repos\\GantProgressTimeline\\GantProgressTimeline.pcfproj",
+      "projectName": "GantProgressTimeline",
+      "projectPath": "C:\\Users\\RobertWenstrand\\Source\\Repos\\GantProgressTimeline\\GantProgressTimeline.pcfproj",
+      "packagesPath": "C:\\Users\\RobertWenstrand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RobertWenstrand\\Source\\Repos\\GantProgressTimeline\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\nicolask\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RobertWenstrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -95,7 +95,7 @@
         "dependencies": {
           "Microsoft.PowerApps.MSBuild.Pcf": {
             "target": "Package",
-            "version": "[0.*, )"
+            "version": "[1.*, )"
           }
         }
       }

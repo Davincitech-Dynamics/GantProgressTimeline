@@ -69,16 +69,22 @@ export class GantProgressTimeline implements ComponentFramework.StandardControl<
 				return;
 			}
 
-			this.createTimeLine(columnsOnView,context.parameters.dataSetGrid);
+            this.createTimeLine(columnsOnView, context.parameters.dataSetGrid, context);
 		}
 	}
 
-    private createTimeLine(columnsOnView: DataSetInterfaces.Column[], subgridData: DataSet) {
-        const startColumn = 'cr8bb_startdate';
-        const endColumn = 'cr8bb_enddate';
-        const valueColumn = 'cr8bb_progress';
-        const labelColumn = 'cr8bb_description';
-        const weightColumn = 'cr8bb_weight';
+    /**
+     * Builds the timeline by taking in the dataset and getting the individual field configuration values.
+     * @param columnsOnView
+     * @param subgridData
+     * @param _context
+     */
+    private createTimeLine(columnsOnView: DataSetInterfaces.Column[], subgridData: DataSet, _context: ComponentFramework.Context<IInputs>) {
+        const startColumn = _context.parameters.startDate.raw;
+        const endColumn = _context.parameters.endDate.raw;
+        const valueColumn = _context.parameters.progress.raw;
+        const labelColumn = _context.parameters.label.raw;
+        const weightColumn = _context.parameters.weight.raw;
 
         if (subgridData.sortedRecordIds.length > 0) {
             var timeLineItems = new visDataSet([]);

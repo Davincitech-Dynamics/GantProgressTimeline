@@ -2,8 +2,13 @@
 <manifest>
   <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.01" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
-      <data-set name="dataSetGrid" display-name-key="GantProgressTimeline">
+    <data-set name="dataSetGrid" display-name-key="GantProgressTimeline">
 	  </data-set>
+    <property name="startDate" display-name-key="Start Date" description-key="Gantt item start date" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="endDate" display-name-key="End Date" description-key="Gantt item end date" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="weight" display-name-key="Weight" description-key="Gantt item weight" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="label" display-name-key="Label" description-key="Gantt item label or short description" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="progress" display-name-key="Progress" description-key="Gantt item progress field" of-type="SingleLine.Text" usage="input" required="true" />
     <resources>
       <code path="index.ts" order="1"/>      
       <css path="dist/tm-net.min.css" order="1" />      
