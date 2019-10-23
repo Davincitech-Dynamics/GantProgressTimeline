@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <manifest>
-  <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.01" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard" api-version="1.1.0">
+  <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.02" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard" api-version="1.1.0">
     <data-set name="dataSetGrid" display-name-key="GantProgressTimeline"/>
     <property name="startDate" display-name-key="Start Date" description-key="Gantt item start date" of-type="SingleLine.Text" usage="input" required="true"/>
     <property name="endDate" display-name-key="End Date" description-key="Gantt item end date" of-type="SingleLine.Text" usage="input" required="true"/>

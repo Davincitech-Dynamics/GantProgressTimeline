@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.01" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard">
+  <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.02" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <data-set name="dataSetGrid" display-name-key="GantProgressTimeline">
 	  </data-set>
